@@ -21,10 +21,10 @@ typedef struct Queue {
 
 
 // Prototypes
-Node* createNode(void* new_data);
+Node* createNode(int new_data);
 Queue* createQueue();
 int isEmpty(Queue* q);
-void enqueue(Queue* q, void* new_data);
+void enqueue(Queue* q, int new_data);
 void dequeue(Queue* q);
 int getFront(Queue* q);
 int getRear(Queue* q);

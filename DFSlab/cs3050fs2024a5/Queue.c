@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "Queue.h"
 
-Node* createNode(void* new_data)
+Node* createNode(int new_data)
 {
     Node* new_node = (Node*)malloc(sizeof(Node));
     new_node->data = new_data;
